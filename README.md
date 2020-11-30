@@ -1,2 +1,2 @@
-# simples-ascii-spinner
+# simple-ascii-spinner
 Simple Spinner implementation in ASCII
