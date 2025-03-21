@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Ascii Spinner</title>
+    <meta charset="utf-8">
+      <style>
+          div {
+              display: block;
+              width: 100%;
+              font-size: 24px;
+          }
+      </style>
+  </head>
+  <body>
+    <div id="spinner0"></div>
+    <div id="spinner1"></div>
+    <div id="spinner2"></div>
+    <div id="spinner3"></div>
+    <div id="spinner4"></div>
+    <div id="spinner5"></div>
+    <div id="spinner6"></div>
+    <div id="spinner7"></div>
+    <div id="spinner8"></div>
+    <script type="text/javascript" src="SimpleSpinner.js"></script>
+    <script type="text/javascript">
+        const numbersOfSpinners = 8;
+        for (let i = 0; i < numbersOfSpinners; i++) {
+            SimpleSpinner(`#spinner{i}`, i, 500); 
+        }
+      </script>
+  </body>
+</html>
