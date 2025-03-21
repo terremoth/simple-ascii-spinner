@@ -7,9 +7,17 @@ var SimpleSpinner = function(el, spinnerType, speed) {
         '▙▛▜▟',
         "◴◷◶◵",
         "◐◓◑◒",
+        "◰◳◲◱"
         "|/–\\",
         '▤▧▥▨',
         "⣷⣯⣟⡿⢿⣻⣽⣾",
+        "⠁⠂⠄⡀⢀⠠⠐⠈",
+        "▉▊▋▌▍▎▏▎▍▌▋▊▉"
+        "▁▂▃▄▅▆▇█▇▆▅▄▃▂▁",
+        "←↖↑↗→↘↓↙",
+        "bᓂqᓄ",
+        "dᓇpᓀ",
+            
     ];
     
     clearInterval(this.counter);
