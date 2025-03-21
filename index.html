@@ -4,11 +4,11 @@
     <title>Simple Ascii Spinner</title>
     <meta charset="utf-8">
       <style>
-          div {
-              display: block;
-              width: 100%;
-              font-size: 24px;
-          }
+        div {
+            display: block;
+            width: 100%;
+            font-size: 35px;
+        }
       </style>
   </head>
   <body>
@@ -24,8 +24,9 @@
     <script type="text/javascript" src="SimpleSpinner.js"></script>
     <script type="text/javascript">
         const numbersOfSpinners = 8;
+        
         for (let i = 0; i < numbersOfSpinners; i++) {
-            SimpleSpinner(`#spinner{i}`, i, 500); 
+            new SimpleSpinner(`#spinner${i}`, i, i * 50); 
         }
       </script>
   </body>
